@@ -8,11 +8,12 @@
  */
 int main(void)
 {
-	int d = 0;
-	while (d < 10)
+	int d;
+
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(48 + d);
-		if (d != 9)
+		putchar(d);
+		if (d != '9')
 		{
 			putchar(',');
 			putchar(' ');
@@ -20,4 +21,4 @@ int main(void)
 	}
 		putchar('\n');
 		return (0);
-	}
+}
