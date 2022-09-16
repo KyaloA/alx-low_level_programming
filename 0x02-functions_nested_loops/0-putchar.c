@@ -2,8 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- *
- * Main- Entry point
+ * main- Entry point
  * Programm that prints _putchar followed by a new line
  * Return: always 0 (Success)
  */
